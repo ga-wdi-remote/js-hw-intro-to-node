@@ -41,14 +41,14 @@ flag down an instructor right away.
 
 ### Part 2: Make a command line app
 #### Directions
-- create a `pirate_jokes` folder to the homework's `intro_to_node_hw` directory
+- create a `pirate_jokes` folder to the current `homework` directory
 - `cd` into that folder
 - run `npm init`
   - press "enter" to go through all of the prompts you'll get in the terminal
 
 *Requiring Node Modules*
  -  Locally install the [node-notifier](https://www.npmjs.com/package/node-notifier) package to `pirate_jokes`
- -  Touch a `main.js` file in your `hello` directory
+ -  Touch a `main.js` file in your `pirate_jokes` directory
  -  Type the following code in `main.js` and save it:
 
 ```js
@@ -57,7 +57,7 @@ var notifier = require('node-notifier');
 
 //create notifier object
 notifier.notify({
-  'title': 'A Pirate Joke',
+  'title': 'Joke of the Day',
   'message': 'Q: How much did the pirate pay for his piercings? \nA: A buck-an-ear.'
 });
 ```
@@ -75,7 +75,7 @@ notifier.notify({
 
 ### Part 3: A closer look at npm packages
 - Take a look at npm's [most starred packages](https://www.npmjs.com/browse/star) on the npmjs website
-- Record your answers to the following questions in `node_answers.md` **
+- Record your answers to the following questions in the `node_answers.md` file **
   1. What are the top 6 highest-starred npm packages? (Hint: reduce the browser width to see a better list view)
   2. Describe what the package is, in a few words or sentences (you may have to refer to the original documentation listed under each links' description).
   3. How many downloads did this package have in the last month?
