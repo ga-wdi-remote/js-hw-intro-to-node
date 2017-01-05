@@ -1,38 +1,41 @@
-## A Closer Look at npm
+# A Closer Look at npm
+- Take a look at npm's [most starred packages](https://www.npmjs.com/browse/star) on the npmjs website
+- Record your answers below
+- Bonus points: formatting this into a table
 
-#### The 6 highest-starred npm packages are:
+### The 6 highest-starred npm packages are:
 
-##### Library 1 Name
+# Library 1 Name
 
-#### Description:
-description here
+### Description:
+brief brief description here
 
-#### Total Downloads last month:
+### Total Downloads last month:
 
-##### Library 2 Name
+# Library 2 Name
 
-#### Description:
-description here
+### Description:
+brief description here
 
-#### Total Downloads last month:
+### Total Downloads last month:
 
-##### Library 3 Name
+# Library 3 Name
 
-#### Description:
-description here
+### Description:
+brief description here
 
-#### Total Downloads last month:
+### Total Downloads last month:
 
-##### Library 4 Name
+# Library 4 Name
 
-#### Description:
-description here
+### Description:
+brief description here
 
-#### Total Downloads last month:
+### Total Downloads last month:
 
-##### Library 5 Name
+# Library 5 Name
 
-#### Description:
-description here
+### Description:
+brief description here
 
-#### Total Downloads last month:
+### Total Downloads last month:
