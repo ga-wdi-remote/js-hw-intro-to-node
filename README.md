@@ -24,14 +24,16 @@ flag down an instructor right away.
 - Select an option from `cowsay -h` to modify your cow, and run another unique message
 - Take a screenshot of your terminal output and add that image to your homework folder
 
+*Example Output*
+![image](cowsay_screenshot.png)
+
 <details><summary>.. Stuck?</summary>
 - Did you properly install `cowsay` using `npm install cowsay -g`?
 - You can check you have successfully installed it if typing `cowsay` in terminal doesn't return an error
 - to add a modification on your cow, use `cowsay -h` for a list of options. Select your choice, and add that tag (ie. -p, -s, -t) to your `cowsay` command in terminal
 
 </details>
-*Example*
-![image](cowsay_screenshot.png)
+
 
 ### Part 2: Make a command line app
 #### Directions
@@ -41,7 +43,7 @@ flag down an instructor right away.
   - press "enter" to go through all of the prompts you'll get in the terminal
 
 *Requiring Node Modules*
- -  Locally install the `node-notifier` (https://www.npmjs.com/package/node-notifier) package to `pirate_jokes`
+ -  Locally install the [node-notifier](https://www.npmjs.com/package/node-notifier) package to `pirate_jokes`
  -  Touch a `main.js` file in your `hello` directory
  -  Type the following code in `main.js` and save it:
 
@@ -59,12 +61,12 @@ notifier.notify({
  -  Run your file by typing `node main.js` into the terminal
  -  git add, and git commit with the message: "successful pirate joke"
 
- <details><summary>.. Stuck?<summary>
- - If you get an error message that says "module not found", double check that you installed the library correctly
+ <details><summary>.. Stuck?</summary>
+ - If you get an error message that says "module not found", double check that you installed the library correctly with `npm install node-notifier`. You can verify the library was successfully installed if running `node-notifier` in terminal returns no errors.
 
- - Syntax error? If you typed out the code, double check your syntax with the provided example.
+ - Syntax error? If you typed out the code, double check your syntax with the provided example. Did you remember to require the package?
 
- -  Nothing happens with `node main.js`? Double check your running it in the current working directory.
+ -  Nothing happens with `node main.js`? Double check your running it in the correct (current working) directory.
 
  </details>
 
@@ -76,7 +78,7 @@ notifier.notify({
   3. How many downloads did this package have in the last month?
 - git add, and commit with the message "closer look at npm packages"
 
-Example: 
+Example:
 ![image](stats.png)
 
 > ** Note: this is a markdown file. For markdown syntax guidelines, you can refer to this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
