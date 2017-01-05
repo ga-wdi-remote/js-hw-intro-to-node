@@ -2,6 +2,8 @@
 
 # Homework : Intro to Node
 
+![image](http://thisdavej.com/wp-content/uploads/2016/02/nodejs-logo.png)
+
 ## Setup
 
 Make sure that you are on the `master` branch of your `wdi-remote-...` repo.
@@ -12,6 +14,7 @@ flag down an instructor right away.
 #### Exercise Objectives
 
 - gain practice  installing `npm` packages (globally & locally) on terminal
+- gain practice executing code with self-guided reading of documentation
 - gain familiarity with popular packages on [npmjs's official site](https://www.npmjs.com/)
 - introduce [Express](http://expressjs.com/), a web app framework
 
@@ -25,6 +28,7 @@ flag down an instructor right away.
 - Take a screenshot of your terminal output and add that image to your homework folder
 
 *Example Output*
+
 ![image](cowsay_screenshot.png)
 
 <details><summary>.. Stuck?</summary>
@@ -61,14 +65,13 @@ notifier.notify({
  -  Run your file by typing `node main.js` into the terminal
  -  git add, and git commit with the message: "successful pirate joke"
 
- <details><summary>.. Stuck?</summary>
+<details><summary>.. Stuck?</summary>
  - If you get an error message that says "module not found", double check that you installed the library correctly with `npm install node-notifier`. You can verify the library was successfully installed if running `node-notifier` in terminal returns no errors.
 
  - Syntax error? If you typed out the code, double check your syntax with the provided example. Did you remember to require the package?
 
  -  Nothing happens with `node main.js`? Double check your running it in the correct (current working) directory.
-
- </details>
+</details>
 
 ### Part 3: A closer look at npm packages
 - Take a look at npm's [most starred packages](https://www.npmjs.com/browse/star) on the npmjs website
@@ -79,9 +82,10 @@ notifier.notify({
 - git add, and commit with the message "closer look at npm packages"
 
 Example:
+
 ![image](stats.png)
 
-> ** Note: this is a markdown file. For markdown syntax guidelines, you can refer to this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+> ** Note: your answers will be in markdown format. For markdown syntax guidelines, you can refer to this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 
 
